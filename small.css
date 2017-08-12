@@ -1,0 +1,13 @@
+/*
+.container{
+    background-color: aqua;
+}
+*/
+
+@media only screen and (max-width: 1223px) {
+    .container {
+        background-color: aqua;
+    }
+    
+
+}

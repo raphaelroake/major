@@ -1,0 +1,702 @@
+
+    a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
+body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog,
+div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
+header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark,
+menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s,
+samp, section, small, span, strike, strong, sub, summary, sup, table, tbody,
+td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body, html {
+    background: #fff;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+/*    -webkit-font-smoothing: */
+        
+/*
+    antialiased;
+    text-rendering: optimizeLegibility;
+*/
+}
+
+body {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section {
+    display: block
+}
+
+
+
+header{
+    position: fixed !important;
+    height: 20px;
+    width: 90px;
+    z-index: 9999; 
+}
+
+b, strong {
+    font-weight: 700
+}
+
+ol, ul {
+    list-style: none
+}
+
+li {
+    display: list-item;
+    list-style: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption, td, th {
+    font-weight: 400;
+    vertical-align: top;
+    text-align: left
+}
+
+q {
+    quotes: none
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+q:after, q:before {
+    content: '';
+    content: none
+}
+
+small, sub, sup {
+    font-size: 20%;
+}
+
+sub, sup {
+    line-height: 1;
+    left: -15px;
+    position: relative;
+    vertical-align: relative;
+}
+
+sub {
+    bottom: -.35em
+}
+
+sup {
+    top: -.80em;
+    font-size: 0.25em;
+    font-weight: 400;
+}
+
+svg {
+    overflow: hidden;
+}
+
+input, button, submit { 
+    border:none; } 
+
+
+h1 {
+    color: #222;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 70px;
+}
+
+h2 {
+    color: #000;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 17px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+h2:hover{
+    
+text-decoration: line-through;
+}
+
+h3 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+
+h4{
+   color: #222;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 50px;
+    font-family: "Times New Roman", serif; 
+    padding-bottom: 10px;
+    
+}
+
+h5{
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+h6{
+    color: #222;
+    font-weight: 600;
+    line-height: 1.1;
+    font-size: 200px;
+    
+}
+
+
+h7 {
+    color: #000;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 17px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h7:hover{
+    text-decoration: line-through;
+}
+
+h8{
+    color: #000;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 13px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h9{
+    color: #000;
+    font-weight: 200;
+    line-height: 1.1;
+    font-size: 30px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h10{
+    color: #000;
+    font-weight: 600;
+    line-height: 1.1;
+    font-size: 25px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+p {
+    font-family: "Times New Roman";
+    color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    
+}
+
+.column{
+    width: 400px;
+    height: calc(100vh - 60px);
+    border: 1px solid #000;
+    border-width: 0px 1px 0px 0px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.column2{
+   position: fixed;
+    
+    left: 445px;
+    height: calc(100vh - 60px);
+    width: 400px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #000;
+    border-width: 0px 1px 0px 0px;
+    background-color: white;
+}
+
+
+
+
+.column1{
+    width: 1221px;
+    height: 50px;
+    border: 2px solid #000;
+    border-width: 0px 1px 1px 0px;
+    background-color: white;
+}
+
+
+
+.nav1{
+    padding-top: 15px;
+    width: 170px;
+    margin-left: 20px;
+    height: 100vh;
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+
+
+}
+
+.namebox{
+    left: 510px;
+    position: relative;
+    height: 50px;
+    width: 190px; 
+    border: 2px solid #000;
+    border-width: 0px 0px 1px 0px;
+
+}
+
+
+
+
+
+
+.navigation_box{
+    position: fixed;
+    width: 180px;
+    height: 180px;
+    top: 0px;
+    left: 290px;
+    border: 1px solid #000;
+    border-width: 0px 1px 0px 0px;
+    
+}
+
+
+.navigation{
+    position: fixed;
+    width: 160px;
+    top: 110px;
+    left: 371px;
+    transform: rotate(90deg);
+    
+}
+
+
+.navigation_box2{
+    position: fixed;
+    width: 80px;
+    height: 180px;
+    top: 0px;
+    left: 370px;
+    border: 1px solid #000;
+    border-width: 0px 1px 0px 0px;
+    
+}
+
+
+.navigation2{
+    position: fixed;
+    width: 180px;
+    top: 120px;
+    left: 330px;
+    transform: rotate(90deg);
+    
+}
+
+.navigation2:hover{
+    text-decoration: line-through;
+    
+}
+
+
+.logo{
+    padding-top: 15px;
+    width: 60px;
+    margin-left: 20px;
+    height: 35px;
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    background-color: white;
+}
+
+.logo h1{
+    display: inline;
+    border: 2px solid #000;
+    border-width: 0px 0px 0px 0px;
+}
+
+.logo2{
+    width: 350px;
+    height: 100px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    background-color: white;
+}
+
+
+
+
+.logo h1:hover{
+    text-decoration: line-through;
+    
+}
+
+
+@keyframes slide-down{
+    0%{
+        transform: translateY(-800px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(50px);
+        opacity: 1;
+        
+    }
+}
+
+@keyframes slide-down-2{
+    0%{
+        transform: translateY(-400px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(165px);
+        
+    }
+}
+
+@keyframes fade-in{
+    0%{
+        
+        opacity: 0;
+    }
+    100%{
+        
+        opacity: 1;
+    }
+}
+
+.intro{
+    position: fixed;
+    top: 0px;
+    height: calc(100vh);
+    width: 500px;
+    border: 1px solid #000;
+    border-width: 0px 1px 0px 0px;
+    overflow: scroll;
+    
+}
+
+.intro::-webkit-scrollbar{
+
+    display: none;
+}
+
+.intro2{
+    position: fixed;
+    top: 0px;
+    height: calc(100vh - 90px);
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    width: 430px;
+    animation: slide-down forwards 1.5s ease;
+    overflow: scroll;
+    
+    
+    
+}
+
+.intro2::-webkit-scrollbar{
+
+    display: none;
+}
+
+
+
+.float{
+    position: absolute;
+    height: 50px;
+    left: 490px;
+    top: 60px;
+    transform: rotate(90deg);
+    
+}
+
+.float_box{
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    height: 70px;
+    width: 50px;
+    border: 1px solid #000;
+    border-width: 0px 0px 1px 0px;
+    
+}
+
+
+.float_box_2{
+    position: absolute;
+    left: 500px;
+    top: 120px;
+    height: 70px;
+    width: 50px;
+    border: 1px solid #000;
+    border-width: 0px 0px 1px 0px;
+    
+}
+
+
+
+.float:hover{
+    text-decoration: line-through;
+}
+
+.float2{
+    position: absolute;
+    height: 50px;
+    left: 488px;
+    top: 130px;
+    transform: rotate(90deg);
+}
+
+.float2:hover{
+    text-decoration: line-through;
+    
+    
+}
+
+.indent{
+
+    margin-left: 20px;
+    
+}
+
+.indent2{
+
+    margin-left: 60px;
+    
+}
+
+
+
+
+.black{
+    
+    background: #000;
+}
+
+.doors{
+    height: calc(100vh);
+    width: 890px;
+    left: 550px;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    border: solid #000;
+    border-width: 0px 1px 0px 1px;
+    overflow: hidden;
+}
+
+
+.door1{
+    width: 420px;
+   
+    padding-right: 20px;
+    
+}
+
+.door1-static{
+    width: 420px;
+    padding-right: 20px;
+    
+}
+
+@keyframes open{
+    0%{
+        transform: translateY(-1000px);
+        
+    }
+    
+
+   
+    100%{
+        transform: translateY(0px);
+        
+    }
+}
+    
+
+
+
+.door2{
+    width: 420px;
+    
+    transform-origin: left bottom;
+    
+}
+
+@keyframes hover{
+    
+    
+    100%{
+        transform: scale(0.5);
+        opacity: 1;
+    }
+
+    }
+
+@keyframes hover-release{
+    0%{
+        transform: scale(0.5);
+        opacity: 1;
+    }     
+    
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    }
+
+
+.image{
+    height: calc(100vh - 70px);
+/*    top: 50px;*/
+    width: 630px;
+    left: 550px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    border: solid #000;
+    border-width: 0px 1px 0px 1px;
+    overflow: scroll;
+}
+
+.image::-webkit-scrollbar{
+
+    display: none;
+}
+
+.image_column{
+    height: calc(100vh - 60px);
+/*    top: 50px;*/
+    width: 630px;
+    left: 550px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    border: solid #000;
+    border-width: 0px 1px 0px 1px;
+    overflow: scroll;
+}
+
+.image_column::-webkit-scrollbar{
+
+    display: none;
+}
+
+
+
+
+
+.door_animated{
+    animation: hover 1s;
+    animation-fill-mode: forwards;
+    
+    
+}
+
+.door_animated_release{
+    animation: hover-release 1s;
+    animation-fill-mode: forwards;
+}
+
+.door_open{
+    animation: open 1s;
+    width: inherit;
+}
+
+.image2{
+    width: 630px;
+}
+
+.image-lines{
+    position: absolute;
+    left: 0px;
+    width: 850px;
+    border: solid #000;
+    border-width: 0px 0px 1px 0px;
+}
+
+.definition-lines{
+    position: absolute;
+    left: -28px;
+    width: 511px;
+    border: solid #000;
+    border-width: 0px 0px 1px 0px;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    width: 1223px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #000;
+    border-width: 0px 0px 0px 1px;
+    
+}
+
+.title{
+    height: 100vh;
+    width: 480px;
+    position: relative;
+    left: 27px;
+    top: -140px;
+    
+}
+
+.title-container{
+    height: 100vh;
+    width: 510px;
+    position: fixed;
+    
+    border: solid #000;
+    border-width: 0px 1px 0px 0px;
+}
+
+.definitions{
+    position: fixed;
+    bottom: 20px;
+    width: 240px;
+    
+}
