@@ -7,7 +7,58 @@
 @media only screen and (max-width: 1223px) {
     .container {
         background-color: aqua;
+        width: 400px;
+        height: 100%;
+        position: relative;
     }
     
+    .column1{
+        width: 400px;
+    }
+    
+    
+    .image_column{
+        width: 350px;
+        padding-left: 30px;
+        left: auto;
+        right: auto;
+        position: relative;
+        overflow: scroll;
+        border: 0px;
+        visibility: hidden;
+        color: aliceblue;
+        
+    } 
+    
+    .image{
+        visibility: hidden;
+    }
+    
+    .intro{
+        top: 0px;
+        width: 400px;
+    }
+    
+    .intro2{
+        width: 330px;
+        overflow: scroll;
+    }
+    
+    .float_box{
+        visibility: hidden;
+        
+    }
+    
+    .float{
+        visibility: hidden;
+    }
+    
+    .float2{
+        visibility: hidden;
+    }
+    
+    .float_box_2{
+        visibility: hidden;
+    }
 
 }
