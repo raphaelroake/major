@@ -274,8 +274,36 @@ p {
 
 }
 
+.response{
+    top: -153px;
+    left: 700px;
+    position: relative;
+    height: 50px;
+    width: 190px; 
+    border: 2px solid #000;
+    border-width: 0px 0px 1px 0px;
 
+}
 
+.response1{
+    top: -153px;
+    left: 700px;
+    position: relative;
+    height: 50px;
+    width: 190px; 
+    border: 1px solid #000;
+    border-width: 0px 0px 1px 0px;
+}
+
+.response2{
+    top: -153px;
+    left: 700px;
+    position: relative;
+    height: 50px;
+    width: 190px; 
+    border: 1px solid #000;
+    border-width: 0px 0px 1px 0px;
+}
 
 
 
@@ -684,7 +712,7 @@ p {
     width: 480px;
     position: relative;
     left: 27px;
-    top: -140px;
+    top: 10px;
     
 }
 
@@ -700,5 +728,10 @@ p {
     position: fixed;
     bottom: 20px;
     width: 240px;
+    font-size: 12px;
+    line-height: 1.4;
     
 }
+
+
+
