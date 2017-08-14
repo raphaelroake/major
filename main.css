@@ -23,12 +23,8 @@ h1, h2, h3, h4, h5, h6 {
 body, html {
     background: #fff;
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-/*    -webkit-font-smoothing: */
-        
-/*
-    antialiased;
+   -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-*/
 }
 
 body {
@@ -648,6 +644,8 @@ p {
     overflow-x: hidden;
 }
 
+
+
 .image_column::-webkit-scrollbar{
 
     display: none;
@@ -670,7 +668,7 @@ p {
 }
 
 .door_open{
-    animation: open 1s;
+/*    animation: open 1s;*/
     width: inherit;
 }
 
@@ -729,9 +727,7 @@ p {
     bottom: 20px;
     width: 240px;
     font-size: 12px;
-    line-height: 1.4;
+    line-height: 1.2;
     
 }
-
-
 
