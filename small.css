@@ -1,21 +1,69 @@
-/*
-.container{
-    background-color: aqua;
-}
-*/
-
 @media only screen and (max-width: 1223px) {
+    
+    .body{
+        width: 400px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    h2 {
+    color: #000;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+    
+    h5{
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+    
+    h9{
+        font-size: 15px;
+    }
+    
+    h7{
+        font-size: 12px;
+    }
+    
     .container {
 /*        background-color: aqua;*/
-        width: 400px;
+        width: 300px;
         height: 100%;
         position: relative;
+        min-height: 600px;
     }
+    
+    .title-container{
+        width: 300px;
+        
+    }
+    
+    sub, sup {
+    line-height: 1;
+    left: 3px;
+    position: relative;
+    vertical-align: relative;
+}
     
     .column1{
         width: 400px;
     }
     
+    .title{
+        width: 300px;
+        left: 20px;
+    }
+    
+    .definition-lines{
+        width: 301px;
+        left: -20px;
+    }
     
     .image_column{
         width: 350px;
@@ -29,19 +77,46 @@
         
     } 
     
+    .logo{
+    padding-top: 7px;
+    width: 40px;
+    margin-left: 10px;
+    height: 23px;
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+    background-color: white;
+}
+    
+    .column1{
+        width: 300px;
+        height: 30px;
+    }
+    
     .image{
         visibility: hidden;
     }
     
     .intro{
         top: 0px;
-        width: 400px;
+        width: 300px;
     }
     
     .intro2{
-        width: 330px;
-        overflow: scroll;
-    }
+    position: fixed;
+    top: -20px;
+    height: calc(100vh - 50px);
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    width: 230px;
+    animation: slide-down forwards 1.5s ease;
+    overflow: scroll;
+    
+    
+    
+}
     
     .float_box{
         visibility: hidden;
@@ -59,5 +134,68 @@
     .float_box_2{
         visibility: hidden;
     }
+    
+    .namebox{
+    left: 0px;
+    top: 166px;
+    position: relative;
+    height: 32px;
+    width: 150px; 
+    border: 0px solid #000;
+    border-width: 0px 0px 1px 0px;
+
+}
+
+    .nav1{
+    padding-top: 7px;
+    width: 130px;
+    margin-left: 20px;
+    height: 26px;
+    border-width: 1px;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+
+
+}
+    
+    .response{
+    top: 66px;
+    left: 150px;
+    position: relative;
+    height: 33px;
+    width: 150px; 
+    border: 0px solid #000;
+    border-width: 0px 0px 1px 0px;
+
+}
+
+.response1{
+    top: 66px;
+    left: 150px;
+    position: relative;
+    height: 32px;
+    width: 150px; 
+    border: 1px solid #000;
+    border-width: 0px 0px 1px 0px;
+}
+
+.response2{
+    top: 66px;
+    left: 150px;
+    position: relative;
+    height: 32px;
+    width: 150px; 
+    border: 1px solid #000;
+    border-width: 0px 0px 1px 0px;
+}
+    
+    .definitions{
+    position: fixed;
+    bottom: 7px;
+    width: 110px;
+    font-size: 6px;
+    line-height: 1.2;
+}
 
 }
