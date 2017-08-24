@@ -702,7 +702,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     border: solid #000;
-    border-width: 1px 1px 1px 1px;
+    border-width: 0px 1px 1px 1px;
 }
 
 .title{
