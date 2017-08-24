@@ -266,7 +266,7 @@ p {
     height: 50px;
     width: 190px; 
     border: 2px solid #000;
-    border-width: 0px 0px 1px 0px;
+    border-width: 0px 1px 1px 0px;
 
 }
 
@@ -702,16 +702,18 @@ p {
     margin-left: auto;
     margin-right: auto;
     border: solid #000;
-    border-width: 0px 1px 0px 1px;
+    border-width: 1px 1px 1px 1px;
 }
 
 .title{
-    height: 100vh;
-    width: 480px;
-    position: relative;
+    height: 290px;
+    width: 490px;
+    position: static;
     left: 27px;
     top: 10px;
-    
+    padding-left: 20px;
+    border: solid #000;
+    border-width: 0px 1px 1px 0px;
 }
 
 .title-container{
@@ -741,5 +743,7 @@ p {
         bottom: 0px;
         height: 230px;
         width: 510px;
+    border: solid #000;
+    border-width: 1px 0px 0px 0px;
     }
 
