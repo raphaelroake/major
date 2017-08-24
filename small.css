@@ -38,13 +38,25 @@
     .container {
         width: 300px;
         height: 100vh;
-        position: relative;
+        position: static;
         min-height: 600px;
+        border: solid #000;
+        border-width: 0px 0px 0px 0px;
     }
+    
+     .container2 {
+        width: 300px;
+        height: 100vh;
+        position: static;
+        min-height: 600px;
+        border: solid #000;
+        border-width: 0px 1px 1px 1px;
+    }
+    
     
     .title-container{
         width: 300px;
-        height: 166px;
+        height: 165px;
         border: solid #000;
     border-width: 0px 0px 1px 0px;
         
@@ -79,14 +91,13 @@
     }
     
     .image_column{
-/*        background-color: aqua;*/
         width: 260px;
         height: auto;
-        top: -1000px;
+        padding-top: 20px;
         position: static;
         overflow: scroll;
         border: solid #000;
-        border-width: 0px 0px 0px 0px;
+        border-width: 0px 1px 1px 1px;
         overflow-x: hidden;
     } 
     
@@ -97,19 +108,23 @@
     .logo{
         padding-top: 7px;
         width: 40px;
-        margin-left: 10px;
+        padding-left: 10px;
+        margin-left: 0px;
         height: 23px;
         border-width: 1px;
         border-color: #000;
         border-style: solid;
-        border-width: 0 1px 0 0;
+        border-width: 0 1px 1px 1px;
         background-color: white;
     }
     
     .column1{
-        width: 300px;
+        width: 301px;
         height: 30px;
-    }
+    border: 2px solid #000;
+    border-width: 1px 0px 1px 0px;
+    background-color: white;
+}
     
     .image{
         width: 260px;
@@ -117,8 +132,6 @@
         right: 0px;
         position: relative;
         overflow: scroll;
-        border: solid #000;
-        border-width: 0px 0px 0px 0px;
         overflow-x: hidden;
     }
     
@@ -126,11 +139,10 @@
         position: static;
         height: auto;
         width: 300px;
-        
+        border: solid #000;
+        border-width: 1px 1px 1px 1px;
     }
     
-    
-
 
     
     .intro2{
@@ -173,7 +185,6 @@
     width: 150px; 
     border: 0px solid #000;
     border-width: 0px 0px 1px 0px;
-
 }
 
     .nav1{
@@ -236,7 +247,9 @@
         margin-right: auto;
         bottom: 0px;
         height: 125px;
-        width: 300px;
+        width: 299px;
+        border: 1px solid #000;
+        border-width: 1px 0px 0px 0px;
     }
     
     @keyframes slide-down{
@@ -253,6 +266,8 @@
     
     .image-lines{
         width:  280px;
+        position: static;
     }
+    
     
 }
