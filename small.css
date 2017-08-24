@@ -62,32 +62,42 @@
     
     .definition-lines{
         width: 301px;
-        left: -20px;
     }
     
+    .definition-lines-2{
+    position: absolute;
+    left: -20px;
+    width: 301px;
+    border: solid #000;
+    border-width: 0px 0px 1px 0px;
+}
+    
     .image_column{
-        width: 350px;
-        padding-left: 30px;
-        left: auto;
-        right: auto;
+        width: 260px;
+        left: 0px;
+        right: 0px;
         position: relative;
         overflow: scroll;
-        border: 0px;
-        visibility: hidden;
-        
+        border: solid #000;
+        border-width: 0px 0px 0px 0px;
+        overflow-x: hidden;
     } 
     
+    .door_open{
+        width: 260px;
+    }
+    
     .logo{
-    padding-top: 7px;
-    width: 40px;
-    margin-left: 10px;
-    height: 23px;
-    border-width: 1px;
-    border-color: #000;
-    border-style: solid;
-    border-width: 0 1px 0 0;
-    background-color: white;
-}
+        padding-top: 7px;
+        width: 40px;
+        margin-left: 10px;
+        height: 23px;
+        border-width: 1px;
+        border-color: #000;
+        border-style: solid;
+        border-width: 0 1px 0 0;
+        background-color: white;
+    }
     
     .column1{
         width: 300px;
@@ -95,7 +105,14 @@
     }
     
     .image{
-        visibility: hidden;
+        width: 260px;
+        left: 0px;
+        right: 0px;
+        position: relative;
+        overflow: scroll;
+        border: solid #000;
+        border-width: 0px 0px 0px 0px;
+        overflow-x: hidden;
     }
     
     .intro{
@@ -106,7 +123,7 @@
     .intro2{
     position: fixed;
     top: -20px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 100px);
     padding-left: 30px;
     padding-right: 40px;
     padding-bottom: 40px;
@@ -196,6 +213,17 @@
     width: 110px;
     font-size: 6px;
     line-height: 1.2;
+    padding-left: 20px;
 }
 
+    .definition-box{
+        background-color: white;
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0px;
+        height: 125px;
+        width: 300px;
+    }
+    
 }

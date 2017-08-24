@@ -682,11 +682,12 @@ p {
     width: 800px;
     border: solid #000;
     border-width: 0px 0px 1px 0px;
+    padding-left: 20px;
 }
 
 .definition-lines{
     position: absolute;
-    left: -28px;
+    left: 0px;
     width: 511px;
     border: solid #000;
     border-width: 0px 0px 1px 0px;
@@ -722,10 +723,23 @@ p {
 }
 
 .definitions{
+    left: auto;
+    right: auto;
     position: fixed;
+    padding-left: 25px;
     bottom: 20px;
     width: 240px;
     font-size: 12px;
     line-height: 1.2;
 }
+
+.definition-box{
+        background-color: white;
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0px;
+        height: 230px;
+        width: 510px;
+    }
 
