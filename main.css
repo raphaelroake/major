@@ -271,7 +271,7 @@ p {
 }
 
 .response{
-    top: -153px;
+    top: -102px;
     left: 700px;
     position: relative;
     height: 50px;
@@ -679,7 +679,7 @@ p {
 .image-lines{
     position: absolute;
     left: 0px;
-    width: 800px;
+    width: 750px;
     border: solid #000;
     border-width: 0px 0px 1px 0px;
     padding-left: 20px;

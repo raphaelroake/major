@@ -53,7 +53,8 @@
     
     .title-container{
         width: 300px;
-        height: 140px;
+        height: 150px;
+        position: static;
         border: solid #000;
         border-width: 0px 1px 1px 0px;   
     }
@@ -179,19 +180,19 @@
     .namebox{
     left: 0px;
     top: 140px;
-    position: relative;
-    height: 32px;
+    position: static;
+    height: 33px;
     width: 150px; 
     border: 0px solid #000;
     border-width: 0px 0px 1px 0px;
 }
 
     .nav1{
-        position: relative;
+        position: static;
     padding-top: 7px;
     width: 130px;
     margin-left: 20px;
-    height: 26px;
+    height: 27px;
     border-width: 1px;
     border-color: #000;
     border-style: solid;
@@ -201,34 +202,14 @@
 }
     
     .response{
-    top: 41px;
+    position: ;
+    top: -68px;
     left: 150px;
-    position: relative;
-    height: 32px;
+    height: 33px;
     width: 150px; 
     border: 0px solid #000;
     border-width: 0px 0px 1px 0px;
 
-}
-
-    .response1{
-    top: 41px;
-    left: 150px;
-    position: relative;
-    height: 32px;
-    width: 150px; 
-    border: 1px solid #000;
-    border-width: 0px 0px 1px 0px;
-    }
-
-.response2{
-    top: 41px;
-    left: 150px;
-    position: relative;
-    height: 32px;
-    width: 150px; 
-    border: 1px solid #000;
-    border-width: 0px 0px 1px 0px;
 }
     
     .definitions{
