@@ -92,7 +92,7 @@ small, sub, sup {
 
 sub, sup {
     line-height: 1;
-    left: -15px;
+    left: -18px;
     position: relative;
     vertical-align: relative;
 }
@@ -271,7 +271,7 @@ p {
 }
 
 .response{
-    top: -102px;
+    top: -204px;
     left: 700px;
     position: relative;
     height: 50px;
@@ -280,28 +280,6 @@ p {
     border-width: 0px 0px 1px 0px;
 
 }
-
-.response1{
-    top: -153px;
-    left: 700px;
-    position: relative;
-    height: 50px;
-    width: 190px; 
-    border: 1px solid #000;
-    border-width: 0px 0px 1px 0px;
-}
-
-.response2{
-    top: -153px;
-    left: 700px;
-    position: relative;
-    height: 50px;
-    width: 190px; 
-    border: 1px solid #000;
-    border-width: 0px 0px 1px 0px;
-}
-
-
 
 .navigation_box{
     position: fixed;
@@ -642,6 +620,14 @@ p {
     border-width: 0px 0px 0px 1px;
     overflow: scroll;
     overflow-x: hidden;
+
+}
+
+.image_column h2{
+    display: inline-block;
+    margin-top: 5px;
+
+
 }
 
 
@@ -668,7 +654,7 @@ p {
 }
 
 .door_open{
-/*    animation: open 1s;*/
+    display: inline-block;
     width: inherit;
 }
 
