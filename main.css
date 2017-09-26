@@ -255,6 +255,7 @@ p {
     border-width: 1px;
     border-color: #000;
     border-style: solid;
+    border-style: solid;
     border-width: 0 1px 0 0;
 
 
@@ -727,7 +728,7 @@ p {
         margin-left: auto;
         margin-right: auto;
         bottom: 0px;
-        height: 230px;
+        height: 210px;
         width: 510px;
     border: solid #000;
     border-width: 1px 0px 0px 0px;
