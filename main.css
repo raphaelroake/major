@@ -155,8 +155,9 @@ h4{
 
 h5{
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 17px;
+    line-height: 1;
 }
 
 h6{
@@ -204,6 +205,24 @@ h10{
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
+h11{
+    color: #222;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 70px;
+}
+
+h11:hover{
+    text-decoration: line-through;
+}
+
+h12{
+    color: #222;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 70px;
+}
+
 p {
     font-family: "Times New Roman";
     color: #000;
@@ -248,27 +267,24 @@ p {
 
 
 .nav1{
-    padding-top: 15px;
-    width: 170px;
+    padding-top: 0px;
+    width: 685px;
     margin-left: 20px;
-    height: 100vh;
-    border-width: 1px;
-    border-color: #000;
-    border-style: solid;
-    border-style: solid;
-    border-width: 0 1px 0 0;
+}
 
+.nav1::-webkit-scrollbar{
 
+    display: none;
 }
 
 .namebox{
     left: 510px;
     position: relative;
-    height: 50px;
-    width: 190px; 
+/*    height: 200px;*/
+    width: 711px; 
     border: 2px solid #000;
-    border-width: 0px 1px 1px 0px;
-
+    border-width: 0px 0px 1px 0px;
+    padding-bottom: 10px;
 }
 
 .response{
@@ -611,7 +627,7 @@ p {
 .image_column{
     height: calc(100vh - 60px);
 /*    top: 50px;*/
-    width: 632px;
+    width: 630px;
     left: 550px;
     padding-top: 70px;
     padding-left: 20px;
@@ -627,8 +643,6 @@ p {
 .image_column h2{
     display: inline-block;
     margin-top: 5px;
-
-
 }
 
 
@@ -690,6 +704,7 @@ p {
     margin-right: auto;
     border: solid #000;
     border-width: 0px 1px 1px 1px;
+    overflow: scroll;
 }
 
 .title{
@@ -709,6 +724,11 @@ p {
     position: fixed;
     border: solid #000;
     border-width: 0px 1px 0px 0px;
+}
+
+.title-container::-webkit-scrollbar{
+
+    display: none;
 }
 
 .definitions{
