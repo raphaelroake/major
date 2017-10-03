@@ -22,8 +22,9 @@
     
     h5{
         font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-        font-weight: 600;
+        font-weight: 200;
         font-size: 12px;
+        display: none;
 }
     
     h9{
@@ -34,6 +35,15 @@
         font-size: 12px;
     }
     
+    h11{
+        
+        font-size: 30px;
+    }
+    
+    h12{
+        font-size: 30px;
+    }
+    
     
     
     .container {
@@ -41,7 +51,8 @@
         height: 100vh;
         position: static;
         border: solid #000;
-        border-width: 0px 0px 0px 0px;
+        border-width: 0px 1px 0px 0px;
+        overflow: hidden;
     }
     
      .container2 {
@@ -188,8 +199,7 @@
     left: 0px;
     top: 140px;
     position: static;
-    height: 33px;
-    width: 150px; 
+    width: 300px; 
     border: 0px solid #000;
     border-width: 0px 0px 1px 0px;
 }
@@ -197,9 +207,9 @@
     .nav1{
         position: static;
     padding-top: 7px;
-    width: 130px;
+    width: 300px;
+        height: 30px;
     margin-left: 20px;
-    height: 27px;
     border-width: 1px;
     border-color: #000;
     border-style: solid;
@@ -220,7 +230,7 @@
 }
     
     .definitions{
-    position: fixed;
+    position: static;
     bottom: 7px;
     width: 110px;
     font-size: 6px;
@@ -230,14 +240,14 @@
 
     .definition-box{
         background-color: white;
-        position: fixed;
+        position: static;
         margin-left: auto;
         margin-right: auto;
         bottom: 0px;
         height: 125px;
         width: 299px;
         border: 1px solid #000;
-        border-width: 1px 0px 0px 0px;
+        border-width: 0px 0px 0px 0px;
     }
     
     @keyframes slide-down{
