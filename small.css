@@ -52,7 +52,7 @@
         position: static;
         border: solid #000;
         border-width: 0px 1px 0px 0px;
-        overflow: hidden;
+        overflow: scroll;
     }
     
      .container2 {
@@ -86,7 +86,10 @@
     
     .column1{
         width: 400px;
+        border: solid #000;
+        border-width: 1px 1px 1px 1px;   
     }
+    
     
     .title{
         position: static;
@@ -132,7 +135,7 @@
         border-width: 1px;
         border-color: #000;
         border-style: solid;
-        border-width: 0 1px 1px 1px;
+        border-width: 0px 1px 1px 1px;
         background-color: white;
     }
     
